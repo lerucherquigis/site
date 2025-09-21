@@ -18,9 +18,9 @@ header {
 }
 
 .logo {
-  max-width: 80px; /* taille réduite */
-  height: auto;
-}
+  max-width: 200px;
+  margin-bottom: 15px;
+} 
 
 .header-text {
   text-align: left; /* texte aligné à gauche du bloc */
