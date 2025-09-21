@@ -148,7 +148,7 @@ footer {
   text-align: center;
   padding: 28px 10px 14px 10px;
   font-size: 0.97em;
-  margin-top: 28px;
+  flex-shrink: 0;
 }
 .footer-content p {
   margin: 7px 0;
