@@ -3,48 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon Site Vitrine</title>
+  <title>Le Rucher Quigis - Vente de Miel</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: #2b3a67; color: white; padding: 40px; text-align: center; }
-    nav a { margin: 0 10px; color: white; text-decoration: none; }
-    section { padding: 40px; }
-    footer { background: #f5f5f5; text-align: center; padding: 20px; }
-    .btn { background: #2b3a67; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fffdf5; color: #333; }
+    header { background: #f7b500; padding: 40px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { font-size: 1.2em; margin-top: 10px; }
+    section { padding: 40px; max-width: 800px; margin: auto; }
+    h2 { color: #f7b500; }
+    .prices { display: flex; justify-content: center; gap: 40px; margin-top: 20px; }
+    .price { background: #fff3cd; padding: 20px; border-radius: 10px; text-align: center; font-size: 1.2em; }
+    .btn { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #f7b500; color: white; border-radius: 5px; text-decoration: none; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; font-size: 0.9em; }
+    img { max-width: 100%; height: auto; }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Bienvenue sur mon site vitrine</h1>
-    <nav>
-      <a href="#about">À propos</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1>Le Rucher Quigis</h1>
+    <p>Apiculteur récoltant – Production locale et artisanale</p>
   </header>
 
-  <section id="about">
+  <section>
+    <h2>Nos produits</h2>
+    <div class="prices">
+      <div class="price">
+        <strong>1 kg</strong><br>15 €
+      </div>
+      <div class="price">
+        <strong>500 g</strong><br>8 €
+      </div>
+    </div>
+    <a class="btn" href="mailto:tonemail@example.com">Commander par email</a>
+  </section>
+
+  <section>
     <h2>À propos</h2>
-    <p>Je suis [Ton Nom / Ton Activité]. Ce site présente mon activité et comment je peux vous aider.</p>
+    <p>Notre rucher est situé à St-Léger, Le Plessis-Ste-Opportune (27). 
+       Nous produisons également de l’hydromel à Merville-Franceville-Plage (14).</p>
   </section>
 
-  <section id="services">
-    <h2>Mes services</h2>
-    <ul>
-      <li>Service 1</li>
-      <li>Service 2</li>
-      <li>Service 3</li>
-    </ul>
-  </section>
-
-  <section id="contact">
+  <section>
     <h2>Contact</h2>
-    <p>Email : <a href="mailto:tonemail@example.com">tonemail@example.com</a></p>
-    <a class="btn" href="mailto:tonemail@example.com">Me contacter</a>
+    <p>Email : <a href="mailto:lerucherquigis@gmail.com">lerucherquigis@gmail.com</a></p>
+    <p>Téléphone : 06 13 40 18 05</p>
   </section>
 
   <footer>
-    <p>© 2025 Mon Site Vitrine - Tous droits réservés</p>
+    <p>SIRET N° 988 271 110 00013 – N° Apiculteur A5205380</p>
+    <p>© 2025 Le Rucher Quigis – Tous droits réservés</p>
   </footer>
+
 </body>
 </html>
