@@ -21,9 +21,8 @@ header p {
   font-size: 1.2em;
 }
 
-.flyer {
-  max-width: 300px;
-  border-radius: 10px;
+.logo {
+  max-width: 200px;
   margin-bottom: 15px;
 }
 
