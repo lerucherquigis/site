@@ -4,51 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Le Rucher Quigis - Vente de Miel</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fffdf5; color: #333; }
-    header { background: #f7b500; padding: 40px; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5em; }
-    header p { font-size: 1.2em; margin-top: 10px; }
-    section { padding: 40px; max-width: 800px; margin: auto; }
-    h2 { color: #f7b500; }
-    .prices { display: flex; justify-content: center; gap: 40px; margin-top: 20px; }
-    .price { background: #fff3cd; padding: 20px; border-radius: 10px; text-align: center; font-size: 1.2em; }
-    .btn { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #f7b500; color: white; border-radius: 5px; text-decoration: none; }
-    footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; font-size: 0.9em; }
-    img { max-width: 100%; height: auto; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
+    <img src="flyer.png" alt="Flyer Le Rucher Quigis" class="flyer">
     <h1>Le Rucher Quigis</h1>
     <p>Apiculteur récoltant – Production locale et artisanale</p>
   </header>
 
-  <section>
-    <h2>Nos produits</h2>
-    <div class="prices">
-      <div class="price">
-        <strong>1 kg</strong><br>15 €
+  <main>
+    <section>
+      <h2>Nos produits</h2>
+      <div class="prices">
+        <div class="price">
+          <strong>1 kg</strong><br>15 €
+        </div>
+        <div class="price">
+          <strong>500 g</strong><br>8 €
+        </div>
       </div>
-      <div class="price">
-        <strong>500 g</strong><br>8 €
-      </div>
-    </div>
-    <a class="btn" href="mailto:tonemail@example.com">Commander par email</a>
-  </section>
+      <a class="btn" href="mailto:tonemail@example.com">Commander par email</a>
+    </section>
 
-  <section>
-    <h2>À propos</h2>
-    <p>Notre rucher est situé à St-Léger, Le Plessis-Ste-Opportune (27). 
-       Nous produisons également de l’hydromel à Merville-Franceville-Plage (14).</p>
-  </section>
+    <section>
+      <h2>À propos</h2>
+      <p>Notre rucher est situé à St-Léger, Le Plessis-Ste-Opportune (27). 
+         Nous produisons également de l’hydromel à Merville-Franceville-Plage (14).</p>
+    </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email : <a href="mailto:lerucherquigis@gmail.com">lerucherquigis@gmail.com</a></p>
-    <p>Téléphone : 06 13 40 18 05</p>
-  </section>
+    <section>
+      <h2>Contact</h2>
+      <p>Email : <a href="mailto:tonemail@example.com">tonemail@example.com</a></p>
+      <p>Téléphone : 06 00 00 00 00</p>
+    </section>
+  </main>
 
   <footer>
     <p>SIRET N° 988 271 110 00013 – N° Apiculteur A5205380</p>
